@@ -1,0 +1,13 @@
+{
+  "name": "commonJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  }
+}
